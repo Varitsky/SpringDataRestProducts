@@ -1,12 +1,9 @@
 package ru.geekbrains.university.controllers;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import ru.geekbrains.university.model.Product;
-import ru.geekbrains.university.model.Student;
 import ru.geekbrains.university.repositories.ProductRepository;
-import ru.geekbrains.university.repositories.StudentRepository;
 
 import java.util.List;
 
